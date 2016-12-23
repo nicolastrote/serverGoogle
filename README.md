@@ -9,7 +9,7 @@
 <BR>
 ## Sources
 <UL TYPE="square">
-<LI> <a href="https://developers.google.com/api-client-library/java/"></a>
+<LI> <a href="https://developers.google.com/api-client-library/java/">Google Java API</a>
 </UL>
 <BR>
 
