@@ -32,20 +32,20 @@
 <LI> In the pom.xml file add in <build> balise
 <LI> nb: /!\ there is no security, ... /!\
 </UL>
-<code>
-		<plugins>
-			<!-- Tomcat plugin -->
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.0</version>
-				<configuration>
-					<path>/</path>
-					<port>8080</port>
-				</configuration>
-			</plugin>
-		</plugins>
-</code>
+<BR>
+	<plugins>
+	<!-- Tomcat plugin -->
+	<plugin>
+	<groupId>org.apache.tomcat.maven</groupId>
+	<artifactId>tomcat7-maven-plugin</artifactId>
+	<version>2.0</version>
+	<configuration>
+	<path>/</path>
+	<port>8080</port>
+	</configuration>
+	</plugin>
+	</plugins>
+<BR> 
 <UL TYPE="square">
 <LI> RUN CONFIGURATION...
 <LI> name: Serveur local
