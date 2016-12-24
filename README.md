@@ -32,7 +32,9 @@
 <LI> In the pom.xml file add in <build> balise
 <LI> nb: /!\ there is no security, ... /!\
 </UL>
-<BR>
+
+
+
 	<plugins>
 	<!-- Tomcat plugin -->
 	<plugin>
@@ -45,7 +47,9 @@
 	</configuration>
 	</plugin>
 	</plugins>
-<BR> 
+
+
+
 <UL TYPE="square">
 <LI> RUN CONFIGURATION...
 <LI> name: Serveur local
