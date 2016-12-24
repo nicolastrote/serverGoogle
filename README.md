@@ -36,16 +36,16 @@
 
 
 	<plugins>
-	<!-- Tomcat plugin -->
-	<plugin>
-	<groupId>org.apache.tomcat.maven</groupId>
-	<artifactId>tomcat7-maven-plugin</artifactId>
-	<version>2.0</version>
-	<configuration>
-	<path>/</path>
-	<port>8080</port>
-	</configuration>
-	</plugin>
+		<!-- Tomcat plugin -->
+		<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<version>2.0</version>
+			<configuration>
+			<path>/</path>
+			<port>8080</port>
+		</configuration>
+		</plugin>
 	</plugins>
 
 
