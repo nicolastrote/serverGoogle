@@ -18,7 +18,7 @@
 <LI> Unzip
 <LI> Servers Tab > No servers are available > create a new server...
 <LI> Select Tomcat v8.0 Server and Next
-
+</UL>
 
 ### Installation Eclipse
 
