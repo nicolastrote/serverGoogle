@@ -13,6 +13,36 @@
 </UL>
 <BR>
 ## Tutorial
+<UL TYPE="square">
+<LI> Download Apache Tomcat from <a href="http://tomcat.apache.org/download-80.cgi#8.5.9"> http://tomcat.apache.org/download-80.cgi#8.5.9</a>
+<LI> Unzip
+<LI> Servers Tab > No servers are available > create a new server...
+<LI> Select Tomcat v8.0 Server and Next
+
+
+### Installation Eclipse
+
+Le tutoriel se base sur la version Eclipse pour JEE, version utilisée Mac OS X (Cocoa) 64-bit :
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/2/eclipse-jee-neon-2-macosx-cocoa-x86_64.tar.gz
+
+Une fois la version téléchargée il ne reste plus qu'à la dézipper dans le dossier Document et de lancer l'applicatif.
+
+
+### Installation Tomcat9
+<UL TYPE="square">
+<LI> Faire apparaitre l'icon Server
+<LI> Onglet "Window" > "Show view" > Other...
+<LI> Choisir "server" > "servers"
+<LI> L'onglet serveur apparait, il fait alors choisir "Click this link to create a new server... "
+<LI> Choisir le server Tomcat9
+<LI> Aller à la page : http://tomcat.apache.org/download-90.cgi#9.0.0.M15
+<LI> Télécharger le plugin :  http://apache.mirror.globo.tech/tomcat/tomcat-9/v9.0.0.M15/bin/apache-tomcat-9.0.0.M15.zip
+<LI> Copier le fichier zip dans vos documents
+<LI> Sélectionner ce dossier dans eclipse pour "tomcat installation directory"
+<LI> Puis valider la fenêtre
+<LI> La fenêtre fermée, il apparait dans l'onglet "servers" : Tomcat v9.0 Server at localhost [Stopped, Republish]
+<LI> Double cliquer dessus et vérifier que la valeur du port HTTP 1.1 est bien sur 8080
+</UL>
 
 ### Maven installation
 <UL TYPE="square">
@@ -27,7 +57,7 @@
 <LI> choose in archetype "Maven-archetype-webapp"
 </UL>
 
-### Add Tomcat 7 pluggin
+### Add Tomcat 9 pluggin
 <UL TYPE="square">
 <LI> In the pom.xml file add in <build> balise
 <LI> nb: /!\ there is no security, ... /!\
