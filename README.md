@@ -6,12 +6,12 @@
 <LI> Apache Tomcat: open-source Java Servlet Container
 <LI> Google API: Google API Client Library for Java provides functionality common to all Google APIs, for example HTTP transport, error handling, authentication, JSON parsing, media download/upload, and batching.
 </UL>
-<BR>
+
 ## Sources
 <UL TYPE="square">
 <LI> <a href="https://developers.google.com/api-client-library/java/">Google Java API</a>
 </UL>
-<BR>
+
 ## Tutorial
 <UL TYPE="square">
 <LI> Download Apache Tomcat from <a href="http://tomcat.apache.org/download-80.cgi#8.5.9"> http://tomcat.apache.org/download-80.cgi#8.5.9</a>
