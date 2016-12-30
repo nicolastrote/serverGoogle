@@ -48,7 +48,8 @@ Une fois la version téléchargée il ne reste plus qu'à la dézipper dans le d
 <UL TYPE="square">
 <LI> HELP > INSTALL NEW SOFTWARE 
 <LI> select in "work with" => "Neon - http://download.eclipse.org/releases/neon"
-<LI> find in "General purpose tools" => m2e    for Maven Integration for Eclipse
+<LI> cochez in "General purpose tools" =>     m2e - Extensions Development Support (Optional)	1.7.0.20160603-1933
+<LI> puis "next", acceptez les licences, puis "next", puis "finish"
 </UL>
 
 ### Maven Web project
